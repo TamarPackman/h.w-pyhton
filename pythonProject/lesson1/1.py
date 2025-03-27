@@ -6,7 +6,7 @@ def runTime(func):
         end = datetime.now()
         return end-start
     return wrapper
-g
+
 
 
 @runTime
